@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -65,4 +67,230 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+}
+html {
+  background-image: url("assets/bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.logo {
+  height: 6rem;
+  padding: 1.5rem;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 95.5vw;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+#tictactoe {
+  height: 30%;
+  width: 30%;
+}
+
+.lobster-two-regular {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#text {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 35px;
+  font-style: normal;
+  text-align: left;
+}
+#globe {
+  margin: auto;
+}
+#globediv {
+  text-align: center;
+  background-image: url("globe.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+  padding-top: 100px;
+  border-bottom: 2px solid white;
+}
+#aboutme {
+  display: inline-block;
+  width: 75dvw;
+  height: 8em;
+  border: 2px solid white;
+  border-radius: 10px;
+
+}
+#aboutme p {
+  margin: 10px;
+  text-align: center;
+  font-size: 1.05em;
+}
+.homepage {
+  flex: 1;
+}
+.top {
+  vertical-align: middle;
+  margin-top: 0px;
+  padding-top: 50px;
+  text-align: center;
+}
+#header {
+  padding-bottom: 0px;
+  width: 100dvw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 4em;
+  font-family: "Noto-Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-align: center;
+  margin-top: 200px;
+  
+}
+
+#galaxy {
+  height: 175px;
+  width: 175px;
+  position: relative;
+  bottom: -20px;
+  display: inline-block;
+  left: 150px;
+}
+#h2p {
+  padding-top: 150px;
+}
+span {
+  color: white;
+}
+#star {
+  height: 90%;
+  width: 90%;
+}
+.star2 {
+  height: 90%;
+  width: 90%;
+  position: relative;
+  right: 850px;
+}
+
+#cardholder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.card {
+  /* height: 15dvh;
+  width: 15dvw; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  width: 20vw;
+  height: 10vw;
+  margin: 3dvw;
+  border: 2px solid white;
+  padding: 2rem 2rem 1rem 2rem;
+  font-size: x-large;
+  border-radius: 10px;
+}
+.card p {
+  margin-top: 0;
+  font-size: 0.8em;
+}
+.tinted-glass {
+  background-color: rgba(175, 174, 194, 0.336);
+}
+h1 {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 7em;
+}
+h3 {
+  margin-top: 0em;
+  margin-bottom: 0.3em;
+  min-width: 20vw;
+}
+
+
+
+#title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1vw;
+}
+#text {
+  padding: 1vw;
 }

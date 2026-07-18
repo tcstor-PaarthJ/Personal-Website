@@ -1,10 +1,10 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import "./App.css";
+import "./index.css";
 import Homepage from "./Homepage.jsx";
-import Nav from "./components/Nav.jsx";
-import Footer from "./components/Footer.jsx";
+import Nav from "./components/Nav/Nav.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 function App() {
   return (
     <>

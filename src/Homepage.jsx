@@ -1,8 +1,9 @@
 import "react";
-import "./Homepage.css";
+import "./index.css";
 import globe from "./globe.png";
-import Nav from "./components/Nav.jsx";
-import "./animations.css"
+import Nav from "./components/Nav/Nav.jsx";
+import "./animations.css";
+
 function Homepage() {
   return (
     <div className="homepage">
