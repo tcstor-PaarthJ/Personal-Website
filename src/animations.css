@@ -1,5 +1,3 @@
-
-
 .holographic-card {
 
   position: relative;
@@ -40,7 +38,7 @@
   transform: rotate(-45deg) translateY(100%);
 }
 
-.nav-button {
+/* .nav-button {
   font-size: 2rem;
   color: #ffffff;
   position: relative;
@@ -69,4 +67,5 @@
 .nav-button :hover::after,
 .nav-button :hover::before {
   transform: scaleX(1);
-}
+} */
+

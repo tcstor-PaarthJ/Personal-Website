@@ -29,21 +29,27 @@ function Homepage() {
             or three X's in a row, column or diagonal in nine coordinate spaces.
           </p>
         </div>
-        <div className="project-card holographic-card card tinted-glass">
+        <a
+          className="project-card holographic-card card tinted-glass"          
+        >
           <h3>Flappy Bird</h3>
           <p>
             A game where you have to click the screen in order to help a bird
             survive past certain obstacles by going through an opening.
           </p>
-        </div>
-        <div className="project-card card holographic-card tinted-glass">
+        </a>
+        <a
+          href="https://github.com/tcstor-PaarthJ/Stock-Game"
+          className="project-card card holographic-card tinted-glass"
+          target="_blank"
+        >
           <h3>Stock Simulator</h3>
           <p>
             A game where you can learn the basics about investing and simulate
             the real stock market, with different stocks, bonds, and mutual
             funds.
           </p>
-        </div>
+        </a>
       </div>
       <div>
         <h2>About me</h2>
