@@ -71,7 +71,7 @@ function Homepage() {
           freshman and 2 silver medals as a sophomore. I recently started doing
           science olympiad, and we are aiming to go to invitational competions
           in the winter/spring. I am playing tennis for my school as well, and I
-          made varisty my sophomore year. I have become the junior captain of
+          made varisty my sophomore year. I am the junior captain of
           the tennis team and am excited to meet new people.
         </p>
       </div>
