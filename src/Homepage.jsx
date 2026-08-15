@@ -22,15 +22,20 @@ function Homepage() {
         <h2>Projects</h2>
       </div>
       <div id="cardholder">
-        <div className="project-card card holographic-card tinted-glass">
+        <a
+          className="project-card card holographic-card tinted-glass"
+          href="https://github.com/tcstor-PaarthJ/Tic-Tac-Toe"
+          target="_blank"
+        >
           <h3>Tic Tac Toe</h3>
           <p>
             A game is played in which two players take turns drawing three O's
             or three X's in a row, column or diagonal in nine coordinate spaces.
           </p>
-        </div>
+        </a>
         <a
-          className="project-card holographic-card card tinted-glass"          
+          className="project-card holographic-card card tinted-glass"
+          href="https://impressionable-selfish-ratio--tcstorrancepjos.replit.app"
         >
           <h3>Flappy Bird</h3>
           <p>
