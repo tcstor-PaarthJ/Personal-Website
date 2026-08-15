@@ -44,7 +44,7 @@ function Homepage() {
           </p>
         </a>
         <a
-          href="https://github.com/tcstor-PaarthJ/Stock-Game"
+          href="https://github.com/tcstor-PaarthJ/Stock-Simulator"
           className="project-card card holographic-card tinted-glass"
           target="_blank"
         >
