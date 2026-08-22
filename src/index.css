@@ -126,6 +126,8 @@ html {
 }
 body {
   background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  align-items: center;
 }
 
 ul {
@@ -174,12 +176,14 @@ li {
   border-bottom: 2px solid white;
 }
 #aboutme {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 75dvw;
   height: 20dvh;
   border: 2px solid white;
   border-radius: 10px;
-
+  
 }
 #aboutme p {
   margin: 10px;
@@ -297,4 +301,9 @@ h3 {
 }
 .card:hover {
   color: white;
+}
+#abtmewrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

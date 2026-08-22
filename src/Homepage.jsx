@@ -59,23 +59,20 @@ function Homepage() {
       <div>
         <h2>About me</h2>
       </div>
-
-      <div className="tinted-glass" id="aboutme">
-        <p>
-          I am a rising junior at Torrance High School and I want to pursue a
-          career in STEM. 
-          I am a co-founder of the Robotics Club at our school,
-          and we are aiming to compete in VEX Robotics VRC competitions this
-          upcoming year. 
-          I have competed in various math competitions over
-          middle school and high school. 
-          I recently started doing
-          science olympiad, and we are aiming to go to invitational competions
-          in the winter/spring. 
-          I am playing tennis for my school as well, and I
-          made varisty my sophomore year. I am the junior captain of the tennis
-          team and am excited to meet new people.
-        </p>
+      <div id="abtmewrapper">
+        <div className="tinted-glass" id="aboutme">
+          <p>
+            I am a rising junior at Torrance High School and I want to pursue a
+            career in STEM. I am a co-founder of the Robotics Club at our
+            school, and we are aiming to compete in VEX Robotics VRC
+            competitions this upcoming year. I have competed in various math
+            competitions over middle school and high school. I recently started
+            doing science olympiad, and we are aiming to go to invitational
+            competions in the winter/spring. I am playing tennis for my school
+            as well, and I made varisty my sophomore year. I am the junior
+            captain of the tennis team and am excited to meet new people.
+          </p>
+        </div>
       </div>
 
       {/*  FIGMA */}
