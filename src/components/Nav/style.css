@@ -2,12 +2,25 @@ nav {
   padding: 2vw;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 6vw;
+  margin-bottom: 0vw;
   position: sticky;
   top: 0;
   z-index: 1000;
+}
+@media screen and (max-width >=80rem) {
+  nav {
+    padding: 0vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0vw;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 }
 nav a {
   flex: 1;

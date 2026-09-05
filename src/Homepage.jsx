@@ -8,6 +8,7 @@ function Homepage() {
   return (
     <div className="homepage">
       <div id="header">
+        <Nav />
         <div id="title">
           <h1 className="top">Paarth Joshi</h1>
           <div className="top" id="text">
@@ -15,8 +16,6 @@ function Homepage() {
             Rising coder and innovator
           </div>
         </div>
-
-        <Nav />
       </div>
       <div id="title-wrapper">
         <h2>Projects</h2>
