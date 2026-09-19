@@ -275,6 +275,7 @@ span {
 .card p {
   margin-top: 0;
   font-size: 0.5em;
+  display: block;
 }
 .tinted-glass {
   background-color: rgba(175, 174, 194, 0.336);
