@@ -1,39 +1,29 @@
 nav {
-  padding: 2vw;
-  padding-top: 0px;
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0vw;
+  width: 100%;
 }
-nav a {
-  flex: 1;
-  color: #ffffff;
-  text-align: center;
 
-}
-@media screen and (max-width >=80rem) {
+  
+
+@media screen and (width >=80rem) {
   nav {
-    padding: 0vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0vw;
-    position: relative;
-    top: 0;
-    margin: 30px;
-}
+  }
+  nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+  }
 }
 
-li a {
-  font-size: xx-large;
-  margin: 2vw;
-  padding: 1.5vh 3vw 1.5vh 3vw;
-  border: 1px solid white;
-  border-radius: 20px;
-}
 .nav-button {
   text-align: center;
   display: inline-block;
@@ -41,7 +31,21 @@ li a {
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  margin: 30px;
+  flex: 1;
+  color: #ffffff;
+  border-radius: 20px;
+  font-size: large;
+  margin: 10px;
+  padding: 10px;
+}
+@media screen and (width >= 80rem){
+  .nav-button{
+    font-size: xx-large;
+    margin: 20px;
+    padding: 10px;
+    width: 8em;
+  }
+  
 }
 
 .nav-button:before {

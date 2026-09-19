@@ -39,7 +39,7 @@ function Homepage() {
           <h3>Flappy Bird</h3>
           <p>
             A game where you have to click the screen in order to help a bird
-            survive past certain obstacles by going through an opening.
+            survive past certain obstacles by going through an opening. 
           </p>
         </a>
         <a
