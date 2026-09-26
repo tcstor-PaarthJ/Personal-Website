@@ -67,7 +67,7 @@ function Homepage() {
             competitions this upcoming year. I have competed in various math
             competitions over middle school and high school. I recently started
             doing science olympiad, and we are aiming to go to invitational
-            competions in the winter/spring. I am playing tennis for my school
+            competitons in the winter/spring. I am playing tennis for my school
             as well, and I made varisty my sophomore year. I am the junior
             captain of the tennis team and am excited to meet new people.
           </p>
